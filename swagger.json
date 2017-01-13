@@ -1,7 +1,12 @@
 {
   "swagger"
 :
-  "2.0", "basePath"
+  "2.0",
+  "info": {
+    "version":"1.0.0",
+    "title":"brooklyn"
+  },
+  "basePath"
 :
   "/v1", "host": "169.46.84.233:8443", "schemes": ["https"], "tags"
 :
